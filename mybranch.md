@@ -114,9 +114,14 @@ if __name__ == '__main__':
 ```
 
 
+https://www.modelscope.cn/docs/sdk/cli
+
 ```
 huggingface-cli scan-cache -vvv
 pip install huggingface_hub[cli]
 huggingface-cli delete-cache // enter选中
+
+
+    modelscope  clear-cache
 
 ```
