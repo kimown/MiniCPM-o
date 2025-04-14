@@ -112,3 +112,11 @@ if __name__ == '__main__':
     main(img_path)
 
 ```
+
+
+```
+huggingface-cli scan-cache -vvv
+pip install huggingface_hub[cli]
+huggingface-cli delete-cache // enter选中
+
+```
